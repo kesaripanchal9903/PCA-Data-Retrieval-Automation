@@ -52,10 +52,11 @@ The script generates a monthly product-level summary containing:
 -ITEMS
 
 **Example:**
-YEAR_MONTH    GENERIC_BNF_EQUIVALENT_NAME                         ITEMS
-202101        Proguanil 25mg / Atovaquone 62.5mg tablets              8
-202102        Proguanil 25mg / Atovaquone 62.5mg tablets              4
-202103        Proguanil 25mg / Atovaquone 62.5mg tablets              7
+| YEAR_MONTH | GENERIC_BNF_EQUIVALENT_NAME | ITEMS |
+|------------|-----------------------------|------:|
+| 202101 | Proguanil 25mg / Atovaquone 62.5mg tablets | 8 |
+| 202102 | Proguanil 25mg / Atovaquone 62.5mg tablets | 4 |
+| 202103 | Proguanil 25mg / Atovaquone 62.5mg tablets | 7 |
 
 The retrieved monthly data can subsequently be aggregated by year and combined with the current market price to estimate yearly sales value.
             **Estimated Sales Value = Annual Items/Quantity × Current Price**
